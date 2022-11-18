@@ -1,0 +1,85 @@
+*,
+html,
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.container{
+width: 100% ;
+min-height: 100vh;
+height: auto;
+background-color:#8F86EC;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 40%;
+    border: 2px solid #D9D4B7;
+    background-color:#FBF4E9 ;
+    color:#A781CA;
+    padding: 50px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px ;
+}
+
+.icons {
+    font-size: 32px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    color: #873A5A;    
+}
+.text-center{
+    text-align: center;
+}
+.nama{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.paraga{
+    text-align: left;
+}
+.deskripsi{
+    margin-top: 9px;
+    font-size: 2em;
+}
+.text-box {
+    width: 85%;
+    height: 80%;
+    margin: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    padding-right: 10px;
+  }
+
+.btn{
+    margin-top: 5px;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    width: 80%;
+    background-color: #FBF4E9;
+    color: #A781CA;
+    font-size: 1em ;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color:#A781CA ;
+    color:#FBF4E9 ;
+    transform:scale(1.2,1.2);
+    transition: 0.1s ease-in-out
+}
+
+@media screen and (max-width: 476px) {
+    .card{
+        width: 95%;
+    }
+}
